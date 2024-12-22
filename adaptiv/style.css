@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (min-width:1920px) {
+    * {
+        padding: 0;
+        margin: 0;
+    
+        list-style: none;
+        text-decoration: none;
+    
+        font-family: "Roboto", serif;
+    }
+    
+    .Header {
+        padding-left: 32px;
+        padding-right: 112px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+    }
+    
+    .Header-cred {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .Header-cred a {
+        color: black;
+    }
+    
+    
+    .Main-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 32px;
+        padding-right: 112px;
+        gap: 144px;
+    }
+    
+    .Main-one-left {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .Main-one-left p:first-child {
+        font-size: 72px;
+    }
+    
+    .Main-one-left li {
+        font-size: 20px;
+    }
+    
+    .Main-one-left img {
+        padding-top: 230px;
+    }
+    
+    
+    .Main-one-right a {
+        display: flex;
+        justify-content: end;
+        padding-bottom: 20px;
+        color: black;
+        text-decoration: underline;
+        font-size: 18px;
+    }
+    
+    .Main-two {
+        display: flex;
+        justify-content: center;
+        padding-top: 120px;
+        padding-left: 32px;
+        padding-right: 112px;
+        gap: 375px;
+    }
+    
+    .Main-two-left {
+        font-size: 48px;
+    }
+    
+    .Main-two-right {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+    
+    .Main-two-right-UpText {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 16px;
+    }
+    .Main-two-right-UpText b{
+    display: none;
+    }
+    
+    .Main-two-right-BottomText {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        font-size: 16px;
+    }
+    
+    .Main-two-right-BottomText div p:first-child {
+        font-size: 36px;
+    }
+    
+    .Main-three {
+        padding-top: 144px;
+        padding-left: 32px;
+        padding-right: 152px;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    .Main-three-right {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .Main-three-right div {
+        display: flex;
+        justify-content: space-between;
+        gap: 140px;
+    }
+    
+    .Main-three-right div p:first-child {
+        font-size: 36px;
+    }
+    
+    
+    .Main-four {
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+        font-size: 48px;
+    }
+    
+    .Main-four-Up,
+    .Main-four-Bottom {
+        display: flex;
+        gap: 180px;
+    }
+    
+    .Main-six-Up {
+        font-size: 48px;
+    }
+    
+    .Main-six {
+        padding-top: 120px;
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+    
+    .Main-six-Bottom {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .Main-six-Bottom div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border: solid;
+        width: 445px;
+        height: 327px;
+    }
+    
+    .Main-six-Bottom div p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .Main-six-Bottom div li {
+        font-size: 16px;
+    }
+    
+    
+    .Main-seven {
+        padding-left: 32px;
+        padding-top: 120px;
+        display: flex;
+        gap: 380px;
+    }
+    
+    .Main-seven-right {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    
+    .Main-seven-Up {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .Main-seven-Up p:first-child {
+        font-size: 48px;
+    }
+    
+    .Main-seven-Cred {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .Main-seven-Cred input {
+        border: none;
+    }
+    
+    .Main-seven-Cred button {
+        border: none;
+        width: 176px;
+        height: 46px;
+        font-size: 16px;
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .Footer {
+        padding-left: 32px;
+        padding-right: 152px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .Footer-Bottom{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    *body{
+        width: 375px;
+    }
+    .Header{
+        color: initial;
+    }
+    .Header-cred{
+        display: none;
+    }
+    .Header-right{
+        display: none;
+    }
+    .Header-left{
+        margin-top: 7px;
+        margin-left: 6px;
+        width: 16px;
+        height: 18px;
+    }
+    .Main-one-left p:first-child{
+        font-size: 32px;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 40px;   
+    }
+    .Main-one-left img{
+        display: none;
+    }
+    .Main-one-left li{
+      font-size: 16px;
+    }
+    .Main-one-right img{
+      width: 343px;
+      height: 261px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    .Main-two-left{
+        display: none;
+    }
+    .Main-two-right-UpText b{
+        font-size: 28px;
+    }
+    .Main-two-right-UpText p{
+     font-size: 16px;
+    }
+    .OneHour{
+        font-style: oblique;
+    }
+    .Main-two-right-BottomText{
+        
+    }
+    .ThreeZeroZero{
+        font-style: oblique;
+
+    }
+    .OneFive{
+        font-style: oblique;
+    }
+    .Main-three-left{
+        margin-top: 40px;
+    }
+    .project{
+        display: none;
+    }
+    .projectOne{
+        display: none;
+    }
+    .ProjectThree{
+        display: none;
+    }
+    .ProjectChetiri{
+        display: none;
+    }
+    .ProjectFive{
+        display: none;
+    }
+    .TXTTelevizor{
+    width: 252px;
+    height: 44px;
+    background-color: #21252980;
+    }
+    .Main-six-Bottom{
+        display: flex;
+        flex-direction: column;
+    }
+.Footer-Bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    align-items: center;
+    gap: 30px;
+    margin-left: 70px;
+}
+}
